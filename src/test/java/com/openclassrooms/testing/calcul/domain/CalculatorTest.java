@@ -128,7 +128,7 @@ public class CalculatorTest {
 		// ...
 	}
 
-	@Test
+	/*@Test
 	public void listDigits_shouldReturnsTheListOfDigits_ofPositiveInteger() {
 		// GIVEN
 		final int number = 95897;
@@ -154,7 +154,7 @@ public class CalculatorTest {
 		final int number = 0;
 		final Set<Integer> actualDigits = calculatorUnderTest.digitsSet(number);
 		assertThat(actualDigits).containsExactly(0);
-	}
+	}*/
 
 	@Disabled("Stoppé car cela échoue tous les mardis")
 	@Test
@@ -181,7 +181,7 @@ public class CalculatorTest {
 
 	}
 
-	@Test
+	/*@Test
 	public void digitsSetOfFact12_shouldReturnsTheCorrectAnswser() {
 		// GIVEN
 		final int cacheFactorial = 479001600;
@@ -191,7 +191,7 @@ public class CalculatorTest {
 
 		// THEN
 		assertThat(actualDigits).containsExactlyInAnyOrder(0, 1, 4, 6, 7, 9);
-	}
+	}*/
 
 	@Test
 	public void multiplyAndDivide_shouldBeIdentity() {

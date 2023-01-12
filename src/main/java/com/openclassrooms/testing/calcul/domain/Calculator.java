@@ -58,7 +58,7 @@ public class Calculator {
 		}
 	}
 
-	public Set<Integer> digitsSet(int number) {
+	/*public Set<Integer> digitsSet(int number) {
 		final Set<Integer> integers = new HashSet<Integer>();
 		final String numberString = String.valueOf(number);
 
@@ -68,6 +68,6 @@ public class Calculator {
 			}
 		}
 		return integers;
-	}
+	}*/
 
 }
